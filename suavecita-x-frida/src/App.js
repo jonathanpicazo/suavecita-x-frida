@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 
@@ -10,7 +9,7 @@ function App() {
       <div className="asset2"></div>
       <div className="suav">
         <p>
-        <hr noshade></hr>
+        <hr></hr>
         <br></br>
         <div>
         SUAVECITA'S HIGH </div>
@@ -82,7 +81,7 @@ function App() {
         <div className="title">BRUSH</div><div className="title">&#160;</div> <div className="title">SET</div>
         <ol>
           <li>- <div className="p3">PADDLE</div> <div className="p3">BRUSH</div></li>
-          <li> - <div className="p3"className="p3">SCULPTING</div> <div className="p3">BRUSH</div></li>
+          <li> - <div className="p3">SCULPTING</div> <div className="p3">BRUSH</div></li>
           <li> - <div className="p3">TEASING <div className="p3">BRUSH</div></div></li>
           <li> - <div className="p3">WET <div className="p3">BRUSH</div></div> -</li>
         </ol>
