@@ -129,9 +129,13 @@
 } */
 
 .suav hr{
-  display:block;
+  width: 35vw;
   border-color: #2c422f;
+  background-color: #2c422f;
   border-width: .01vmax;
+  margin-bottom: .1vw;
+  border-width: .2vh;
+  border-style: solid;
 }
 
 .choose {
@@ -160,7 +164,10 @@
 .choose hr{
   width: 80vw;
   border-color: #93d7ca;
+  background-color: #93d7ca;
   border-width: .01vmax;
+  border-width: 3px;
+  border-style: solid;
   /* margin-bottom: -200vmin; */
 }
 
@@ -223,12 +230,6 @@ ol li {
   font-size: 2.5vw;
 }
 
-/* ol li::before{
-  content: " - ";
-}
-ol li::after{
-  content: " - ";
-} */
 
 .heat div::first-letter {
   font-size: 4vw;
@@ -272,9 +273,12 @@ ol li::after{
 
 .brush hr {
   border-color: #93d7ca;
+  background-color: #93d7ca;
   display:block;
   width: 80vw;
   margin-bottom: 1vw;
+  border-width: .1vmax;
+  border-style: solid;
 }
 
 .suavo {
@@ -304,7 +308,7 @@ ol li::after{
   display: grid;
   color:#e7b3b1;
   font-family: 'Trebuchet MS', sans-serif;
-  font-size: 2vw;
+  font-size: 1.9vw;
 }
 
 .title {
@@ -354,7 +358,7 @@ ol li::after{
   .container{
   display: grid;
   grid-template-columns:1fr 1fr 1fr 1fr;
-  grid-template-rows: 50vmax 12vmax 80vmax 40vmax 42vmax 20vmax 17vmax 70vmax 65vmax 13vmax 30vmax 70vmax 50vmax 13vmax 11vmax;
+  grid-template-rows: 50vmax 12vmax 80vmax 40vmax 42vmax 20vmax 19vmax 70vmax 65vmax 15vmax 32vmax 70vmax 50vmax 14.5vmax 11vmax;
   grid-template-areas:
   "head head head head"
   "line line line line"

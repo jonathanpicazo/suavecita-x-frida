@@ -10,7 +10,7 @@ function App() {
       <div className="asset2"></div>
       <div className="suav">
         <p>
-        <hr></hr>
+        <hr noshade></hr>
         <br></br>
         <div>
         SUAVECITA'S HIGH </div>
