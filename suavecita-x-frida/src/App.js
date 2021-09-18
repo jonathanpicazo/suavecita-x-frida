@@ -88,13 +88,16 @@ function App() {
         </ol>
         <hr></hr>
           <div className="engraved">These engraved bamboo brushed are only available as a set</div>
+          <br></br>
           <div className="copyright">&#169;Frida Kahlo Corporation</div>
           </p>
       </div>
+      <div className="suavo"></div>
+      <div className="suava"></div>
       <div className="foot">
         <p>
-        FREE US SHIPPING WHEN YOU SPEND $35<br></br>
-        FREE CANADA & MEXICO SHIPPING WHEN YOU SPEND $75 <br></br>
+        <div classname="shipping">FREE US SHIPPING WHEN YOU SPEND $35<br></br>FREE CANADA & MEXICO SHIPPING WHEN YOU SPEND $75 <br></br>
+        </div>
         <div className="suavlink">SUAVECITA.COM</div>
         </p>
       </div>
