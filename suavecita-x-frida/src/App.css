@@ -132,9 +132,8 @@
   width: 35vw;
   border-color: #2c422f;
   background-color: #2c422f;
-  border-width: .01vmax;
+  border-width: .1vmax;
   margin-bottom: .1vw;
-  border-width: .2vh;
   border-style: solid;
 }
 
@@ -165,8 +164,7 @@
   width: 80vw;
   border-color: #93d7ca;
   background-color: #93d7ca;
-  border-width: .01vmax;
-  border-width: 3px;
+  border-width: .1vmax;
   border-style: solid;
   /* margin-bottom: -200vmin; */
 }
