@@ -1,15 +1,10 @@
 
 
-
-
-
-
-
 .container {
   height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 75vmax 15vmax 75vmax 75vmax 30vmin 40vmax 35vmax 35vmax 60vmax 100vmin 30vmin 21vmin;
+  grid-template-rows: 75vmax 15vmax 75vmax 75vmax 55vmin 40vmax 35vmax 35vmax 60vmax 100vmin 30vmin 21vmin;
   grid-template-areas:
   "head head head head"
   "line line line line"
@@ -100,16 +95,43 @@
   background-position:top;
   background-size: cover;
   object-fit: cover;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+  font-size: 4vw;
+  color:#2c422f;
 }
 
-.suav p{
+.suav div::first-letter {
+  font-size: 6vw;
+}
+
+.firstword {
+  display: inline-block;
+}
+
+
+
+
+
+
+/* .suav p{
   font-family: "Times New Roman", Times, serif;
   font-weight: 510;
   font-size: 3vw;
   color:#2c422f;
-  /* align-items: center;
+  align-items: center;
   justify-content: center;
-  display: flex; */
+  display: grid;
+} */
+
+.suav hr{
+  display:block;
+  border-color: #2c422f;
+  border-width: .01vmax;
 }
 
 .choose {
@@ -117,42 +139,187 @@
   justify-content: center;
   align-items: center;
   grid-area:choose;
+  display: grid;
+  text-align: center;
 }
-.styling{
-  grid-area: styling;
-  background-image: url(./assets/Asset\ 3.png);
-  background-position:top;
-  background-size: cover;
-  object-fit: cover;
+
+.choose p{
+  color: #c0b8b1;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+  font-size: 3vw;
 }
-.complete{
-  grid-area: complete;
-  background-image: url(./assets/Asset\ 5.png);
-  background-position:top;
-  background-size: cover;
-  object-fit: cover;
+.p2{
+  /* margin-top: -13vmin; */
+  font-family: 'Trebuchet MS', sans-serif;
+  color: #9dca9c;
+  font-size: 1.7vw;
+  font-weight: 600;
 }
-.brush{
-  grid-area: brush;
-  background-color: #2c422f;
+
+.choose hr{
+  width: 61vw;
+  border-color: #93d7ca;
+  border-width: .01vmax;
+  /* margin-bottom: -200vmin; */
 }
-.foot{
-  grid-area: foot;
-  padding: 20px;
-  background-color: #2c422f;
-  background-image: url(./assets/suavecito-logo.png), url(./assets/suavecita-logo.png);
-  background-repeat: no-repeat, no-repeat;
-  background-position: 9vmin 0vmin, 175vmin 0vmin;
-  background-size: 20vmin,20vmin;
+
+.p1::first-letter{
+  font-size: 5vw;
 }
+
 .heat {
   grid-area: heat;
   background-image: url(./assets/Asset\ 5.png);
   background-position:top;
   background-size: cover;
   object-fit: cover;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  text-align: center;
 }
 
+.styling{
+  grid-area: styling;
+  background-image: url(./assets/Asset\ 3.png);
+  background-position:top;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  text-align: center;
+}
+
+
+ul {
+  text-align: center;
+  list-style-type: none;
+}
+
+ul li{
+  /* text-align: center; */
+  color: #2c422f;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+  font-size: 2.5vw;
+}
+ul li::before{
+  content: "- ";
+}
+ul li::after{
+  content: " -";
+}
+
+ol {
+  text-align: center;
+  list-style-type: none;
+}
+
+ol li {
+  color:#c0b8b1;
+  display: inline;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2vw;
+}
+
+/* ol li::before{
+  content: " - ";
+}
+ol li::after{
+  content: " - ";
+} */
+
+.heat div::first-letter {
+  font-size: 4vw;
+}
+
+.styling div::first-letter {
+  font-size: 4vw;
+}
+
+.complete div::first-letter {
+  font-size: 5.4vw;
+}
+
+
+.complete{
+  grid-area: complete;
+  background-image: url(./assets/Asset\ 5.png);
+  background-position:top;
+  background-size: cover;
+  object-fit: cover;
+  color: #2c422f;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+  font-size: 3.6vw;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  text-align: center;
+}
+
+.brush{
+  grid-area: brush;
+  background-color: #2c422f;
+  color:#c0b8b1;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  text-align: center;
+  
+}
+
+.brush hr {
+  border-color: #93d7ca;
+  display:block;
+  width: 67vw;
+}
+
+.foot{
+  grid-area: foot;
+  background-color: #2c422f;
+  background-image: url(./assets/suavecito-logo.png), url(./assets/suavecita-logo.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: 9vmin 0vmin, 175vmin 0vmin;
+  background-size: 20vmin,20vmin;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+}
+
+.title {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 3.2vw;
+  display: inline-block;
+}
+
+.title::first-letter{
+  font-size: 5vw;
+}
+
+.engraved {
+  font-family: 'Trebuchet MS', sans-serif;
+  color:#9dca9c;
+  font-size: 2vw;
+  font-weight: 600;
+}
+
+.copyright {
+  font-family: 'Trebuchet MS', sans-serif;
+  color:#9dca9c;
+  font-size: 0.9vw;
+  font-weight: 600;
+}
+
+.p3 {
+  display: inline-block;
+}
+
+.p3::first-letter{
+  font-size: 3vw;
+}
 /* .suavlink{
   font-family: Arial, sans-serif;
 } */
