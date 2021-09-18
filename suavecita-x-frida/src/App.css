@@ -202,7 +202,7 @@ ul li{
   color: #2c422f;
   font-family: "Times New Roman", Times, serif;
   font-weight: 500;
-  font-size: 2.5vw;
+  font-size: 2.9vw;
 }
 ul li::before{
   content: "- ";
@@ -274,6 +274,7 @@ ol li::after{
   border-color: #93d7ca;
   display:block;
   width: 80vw;
+  margin-bottom: 1vw;
 }
 
 .suavo {
@@ -319,7 +320,7 @@ ol li::after{
 .engraved {
   font-family: 'Trebuchet MS', sans-serif;
   color:#9dca9c;
-  font-size: 2.5vw;
+  font-size: 2.3vw;
   font-weight: 600;
 }
 
@@ -353,7 +354,7 @@ ol li::after{
   .container{
   display: grid;
   grid-template-columns:1fr 1fr 1fr 1fr;
-  grid-template-rows: 50vmax 12vmax 80vmax 40vmax 42vmax 20vmax 20vmax 70vmax 65vmax 15vmax 30vmax 70vmax 50vmax 15vmax 12vmax;
+  grid-template-rows: 50vmax 12vmax 80vmax 40vmax 42vmax 20vmax 17vmax 70vmax 65vmax 13vmax 30vmax 70vmax 50vmax 13vmax 11vmax;
   grid-template-areas:
   "head head head head"
   "line line line line"
